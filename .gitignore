@@ -1,0 +1,35 @@
+# Compiled python modules.
+*.pyc
+*.pt
+*.pkl
+
+# wandb log files
+*wandb/
+*out/
+*tmp*
+*pymp*
+*logdir/
+
+# Byte-compiled
+_pycache__/
+.cache/
+.idea/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+.eggs/
+
+# PyPI distribution artifacts.
+build/
+dist/
+
+# Tests
+.pytest_cache/
+
+# Data
+*.gz
+*ubyte
+*.pb
+
+# Other
+*.DS_Store
